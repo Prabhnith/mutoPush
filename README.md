@@ -15,5 +15,6 @@ Instructions
  
 Input/Output
 ============
-1. Input is Json Object with Key: Value pair as {"platform" : platform, "deviceID" : deviceID }
-2. Output is response "Status OK"
+1. Input is Json Object with Key: Value pair as {"platform" : platform, "deviceID" : deviceID } to serverUrl:8000/push
+2. Output response is "{"iOS" : "OK"}, {"Android" : "OK"} or {"Status" : "FAILED" } based on the request.
+ 
